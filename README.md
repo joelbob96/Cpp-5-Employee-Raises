@@ -3,7 +3,7 @@
 ## Retrieves employee payroll data from a file, and gives each a $50 raise
 
 #### Abstract
-This program reads comma separated input from the **employee.dat** file. Each line of input is a new employee object. The format of the employee object is a string first name, string last name, and float monthly pay. Each employee is then given a $50 raise. The employees are then output to the **output.dat** file. The &output operator has been overloaded for the employee object to make printing to the screen, and output file easier.
+This program reads comma separated input from the **employee.dat** file. Each line of input is a new employee object. The format of the employee object is a string first name, string last name, and float monthly pay. Each employee is then given a $50 raise. The employees are then output to the **output.dat** file. The std::ostream operator has been overloaded for the employee object to make printing to the screen, and output file easier.
 
 #### Employee object
 ```
